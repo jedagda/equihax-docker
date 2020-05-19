@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+        apache-struts:
+                build: './apache-struts/'
+                # depends_on:
+                container_name: equifax
+                hostname: equifax
+                privileged: true
+                networks: 
+                        - equifax-frontend
+                        - equifax-backend
+                ports: 
+                        - "8080:8080"
+
+        kali-linux:
+                build: './kali-linux/'
+                tty: true
+                container_name: attacker
+                hostname: kali
+                networks:
+                        - hack.net
+                ports:  
+                        - "49154:22"
+
+networks: 
+        equifax-frontend:
+                driver: bridge
+        equifax-backend:
+                driver: bridge
+        hack.net:
+                driver: bridge

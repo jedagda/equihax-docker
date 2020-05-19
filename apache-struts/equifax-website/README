@@ -1,0 +1,9 @@
+Dunno if the names of the directories have to remain the same but i left them 
+exactly as they were in the test server for consistency reasons.
+
+The index page is the main page of the equifax website and the 
+dispute page is exactly what it sounds like. Within the 2 folders are
+CSS and Javascript dependencies that came when using httrack as well as a
+deep directory where the files were originally located. Once again for
+consistency reasons I didn't modify anything within it and would probably
+suggest the same to avoid short sighted headachers UwU

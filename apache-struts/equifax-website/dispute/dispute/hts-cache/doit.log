@@ -1,0 +1,8 @@
+https://web.archive.org/web/20181004194810/https://www.ai.equifax.com/CreditInvestigation/initLoginDisputePage.action -O /var/www/html/dispute -%v
+File generated automatically on Wed, 17 Jul 2019 08:10:10, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

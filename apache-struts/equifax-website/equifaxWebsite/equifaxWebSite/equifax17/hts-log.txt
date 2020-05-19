@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Tue, 16 Jul 2019 14:43:06 at https://web.archive.org/web/20170520044336/https://www.equifax.com/personal/
+(winhttrack https://web.archive.org/web/20170520044336/https://www.equifax.com/personal/ -O "/var/www/html/equifaxWebSite/equifax17" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:44:06	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20170520044336/https://www.equifax.com/personal/" (from https://web.archive.org/web/20170520044336/https://www.equifax.com/personal/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 0 seconds : 3 links scanned, 1 files written (148591 bytes overall) [67983 bytes received at 1133 bytes/sec], 200713 bytes transferred using HTTP compression in 2 files, ratio 17%, 29.5 requests per connection
+(1 errors, 0 warnings, 0 messages)
