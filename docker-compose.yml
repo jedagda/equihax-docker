@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-        apache-struts:
+        equifax:
                 build: './apache-struts/'
                 # depends_on:
                 container_name: equifax
@@ -13,7 +13,7 @@ services:
                 ports: 
                         - "8080:8080"
 
-        kali-linux:
+        dedsec:
                 build: './kali-linux/'
                 tty: true
                 container_name: attacker
@@ -30,3 +30,7 @@ networks:
                 driver: bridge
         hack.net:
                 driver: bridge
+                ipam:
+                    driver: default
+                    config:
+                        - subnet: "172.193.125.0/24"
